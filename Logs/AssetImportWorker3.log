@@ -1,0 +1,655 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/baa20/AwesomeHotelMarioButton
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52178
+Successfully changed project path to: C:/Users/baa20/AwesomeHotelMarioButton
+C:/Users/baa20/AwesomeHotelMarioButton
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22932] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 139102143 [EditorId] 139102143 [Version] 1048832 [Id] WindowsEditor(7,AntonPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22932] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 139102143 [EditorId] 139102143 [Version] 1048832 [Id] WindowsEditor(7,AntonPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 123.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/baa20/AwesomeHotelMarioButton/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 730 (ID=0x4692)
+    Vendor:   Intel
+    VRAM:     8075 MB
+    Driver:   31.0.101.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008977 seconds.
+- Loaded All Assemblies, in  0.543 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 215 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 1034ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (160ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (318ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\baa20\AwesomeHotelMarioButton\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\baa20\AwesomeHotelMarioButton\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.707 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (402ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.7 KB). Loaded Objects now: 4462.
+Memory consumption went from 145.1 MB to 144.9 MB.
+Total: 4.053300 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.178300 ms MarkObjects: 3.304400 ms  DeleteObjects: 0.229000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 582173.023493 seconds.
+  path: Assets/Audio/Part 9/02Label.wav
+  artifactKey: Guid(78ced1a659c4eea42acfc1856399eee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/02Label.wav using Guid(78ced1a659c4eea42acfc1856399eee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3169a2459a32b418ec9fb85b1231528b') in 0.086107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Audio/Part 9/11Label.wav
+  artifactKey: Guid(1c996226dd052be47b4ec0e04076a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/11Label.wav using Guid(1c996226dd052be47b4ec0e04076a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936daa2ee25dae75e6c70e35ee6a0d98') in 0.017519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/Part 9/33Label.wav
+  artifactKey: Guid(da1961ce263155345b11cd94651c5076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/33Label.wav using Guid(da1961ce263155345b11cd94651c5076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee49df35352aed46d3765f4b1555dc') in 0.017216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/Part 9/04Label.wav
+  artifactKey: Guid(eb688ba84e28068438d79baddae69c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/04Label.wav using Guid(eb688ba84e28068438d79baddae69c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1493fa94cc25e6cb07cf05d3c72e24') in 0.013427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/Part 9/21Label.wav
+  artifactKey: Guid(a2985d586e9aaf54197d42e5956df99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/21Label.wav using Guid(a2985d586e9aaf54197d42e5956df99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeb6793b7c8f9373329c2ff24e64cdb') in 0.012002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/Part 9/07Label.wav
+  artifactKey: Guid(c1bba472a6579764a84ebefb4bf60444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/07Label.wav using Guid(c1bba472a6579764a84ebefb4bf60444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72c59c2dceff559e4dce5fe6687dad9') in 0.016845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/Part 9/12Label.wav
+  artifactKey: Guid(bd2b57e53f70db345b2d5baf882de4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/12Label.wav using Guid(bd2b57e53f70db345b2d5baf882de4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7617d4b9ebf59d003883430d050608') in 0.014111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/Part 9/32Label.wav
+  artifactKey: Guid(942acffaa0fd38e4480437946e43b082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/32Label.wav using Guid(942acffaa0fd38e4480437946e43b082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ff9f14d9e9088d8f995e7f4da2263e') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/Part 9/18Label.wav
+  artifactKey: Guid(9eb6df91f113f2b4e9175fa7c382dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/18Label.wav using Guid(9eb6df91f113f2b4e9175fa7c382dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5cd75366567c57c47626deda1ebe64') in 0.013139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/Part 9/25Label.wav
+  artifactKey: Guid(acc12c01b4b83a643845847b582bcc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/25Label.wav using Guid(acc12c01b4b83a643845847b582bcc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2af093e65473c2ef034562d87b50c4') in 0.015300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/Part 9/14Label.wav
+  artifactKey: Guid(ab193a6addd404c42a41dc0944e64a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/14Label.wav using Guid(ab193a6addd404c42a41dc0944e64a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0bab9424d534e1045487f4def0b7d8') in 0.017467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/Part 9/30Label.wav
+  artifactKey: Guid(5f1afc54f20e0fb49a21b2dea7406caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/30Label.wav using Guid(5f1afc54f20e0fb49a21b2dea7406caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b53dad581fae8361756e117f3f12c08') in 0.020559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Audio/Part 9/36Label.wav
+  artifactKey: Guid(fdb99d153b3862544948f1a9bb1fec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/36Label.wav using Guid(fdb99d153b3862544948f1a9bb1fec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c137dc193bdb6c89eabb76df02f2b5') in 0.014806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/Part 9/23Label.wav
+  artifactKey: Guid(9552d66ba075ad047a502dd8fc2cae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/23Label.wav using Guid(9552d66ba075ad047a502dd8fc2cae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7f137448e7d322cd8000aae7500af7') in 0.014721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Part 9/27Label.wav
+  artifactKey: Guid(bd1bcb5db1cd04044a91d1aab4b5fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/27Label.wav using Guid(bd1bcb5db1cd04044a91d1aab4b5fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced24254237f1d589fab71e131673b45') in 0.013128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/Part 9/26Label.wav
+  artifactKey: Guid(9d3bbda4a6223a9419ecc405dd77ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/26Label.wav using Guid(9d3bbda4a6223a9419ecc405dd77ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb84e3a7e04d7a50434a7ab519aa76ee') in 0.015279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Part 9/10Label.wav
+  artifactKey: Guid(2cca23636028f6b48b8cc68166cbfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 9/10Label.wav using Guid(2cca23636028f6b48b8cc68166cbfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87872372fd8a1ce4c5a4684fa62f79a') in 0.013930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.499829 seconds.
+  path: Assets/Audio/Part 10/03Label.wav
+  artifactKey: Guid(938b2e20b1495b4429d43e65032be271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 10/03Label.wav using Guid(938b2e20b1495b4429d43e65032be271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5779c585675fe6b2729c30dd84da9b') in 0.013457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/Part 10/14Label.wav
+  artifactKey: Guid(9a143113af662474f85744d77ba692f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 10/14Label.wav using Guid(9a143113af662474f85744d77ba692f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16336f45d53175957a4cfb3f33861e3e') in 0.013306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/Part 10/10Label.wav
+  artifactKey: Guid(607866a6ef0cbd54886571fc60e1662d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 10/10Label.wav using Guid(607866a6ef0cbd54886571fc60e1662d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7da6a253b26031113b3ddf5601f5e70') in 0.014198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Part 10/07Label.wav
+  artifactKey: Guid(fc316428b464bb342812c08f2bd8ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 10/07Label.wav using Guid(fc316428b464bb342812c08f2bd8ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb968dcaedb26f06d00f927b8a9dd13b') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Audio/Part 10/08Label.wav
+  artifactKey: Guid(bf142efbd5bbd3a4da734963af6aad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 10/08Label.wav using Guid(bf142efbd5bbd3a4da734963af6aad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48d35a0d34d56f6416e058b852d5890') in 0.014491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Part 10/11Label.wav
+  artifactKey: Guid(838e7c347f9cec945b27e88df2ef11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 10/11Label.wav using Guid(838e7c347f9cec945b27e88df2ef11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df4762d2305b5b86ba075a01878cbb6') in 0.015300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.055204 seconds.
+  path: Assets/Audio/Part 11/03Label.wav
+  artifactKey: Guid(813350b89acba234c9cc7ead0dc80f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 11/03Label.wav using Guid(813350b89acba234c9cc7ead0dc80f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a653f5164b630bb75ff7d0b78825faae') in 0.012821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Part 11/10Label.wav
+  artifactKey: Guid(3a95907a50fe7fd4bb30ba2781b3e5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 11/10Label.wav using Guid(3a95907a50fe7fd4bb30ba2781b3e5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91173e192e6468a178e87c15976c64') in 0.011650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Audio/Part 11/09Label.wav
+  artifactKey: Guid(d964dd4a02d16e547bb53c512bb53e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 11/09Label.wav using Guid(d964dd4a02d16e547bb53c512bb53e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec19ee904ce929a030f0fa7a07b908d') in 0.012060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.889621 seconds.
+  path: Assets/Audio/Part 12/03Label.wav
+  artifactKey: Guid(5b0d9b621c0bba04dbfa9e06eb14df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 12/03Label.wav using Guid(5b0d9b621c0bba04dbfa9e06eb14df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0fe0de8a8b6446a590becb439052ff') in 0.014149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.177451 seconds.
+  path: Assets/Audio/Part 13/03Label.wav
+  artifactKey: Guid(53d2f021274e34d4283c2413b6565b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/03Label.wav using Guid(53d2f021274e34d4283c2413b6565b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae767e2ce6e8f1821287d115bb63dd9') in 0.018640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Part 13/18Label.wav
+  artifactKey: Guid(52dc7e7c2aa548a418583a5b393e0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/18Label.wav using Guid(52dc7e7c2aa548a418583a5b393e0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d3780a205947ddad585851c1070a0') in 0.013101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/Part 13/29Label.wav
+  artifactKey: Guid(73d33f118ffd2fd4199ab4524ee5f55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/29Label.wav using Guid(73d33f118ffd2fd4199ab4524ee5f55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715bc30c8b2568b2a335843711cb60e') in 0.011083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/Part 13/04Label.wav
+  artifactKey: Guid(45fdf2eb3d48b564e8262791d0195886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/04Label.wav using Guid(45fdf2eb3d48b564e8262791d0195886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ac687a6f3e3daa24a97a8ef68dda7') in 0.013078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Part 13/09Label.wav
+  artifactKey: Guid(cb09764376b6ab841b1eb75fec7f4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/09Label.wav using Guid(cb09764376b6ab841b1eb75fec7f4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e23d127fa126ced50f4d301b99c28a') in 0.010889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/Part 13/20Label.wav
+  artifactKey: Guid(a87232b0046fce74ebaf4997a8459bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/20Label.wav using Guid(a87232b0046fce74ebaf4997a8459bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10b009569bf0e792ac1da1f1cea0e34') in 0.008945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Audio/Part 13/16Label.wav
+  artifactKey: Guid(cf856d1e0bed2d447b0a6c1d97724019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/16Label.wav using Guid(cf856d1e0bed2d447b0a6c1d97724019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63213d7e416faa0d484a2c8b506f811') in 0.011440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Part 13/27Label.wav
+  artifactKey: Guid(65547f972a183644fb811fd6e331bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/27Label.wav using Guid(65547f972a183644fb811fd6e331bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaa29c185103a85eee09b728dabfe88') in 0.013324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Part 13/25Label.wav
+  artifactKey: Guid(6e73beeecaf046f488c1078d20d226a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/25Label.wav using Guid(6e73beeecaf046f488c1078d20d226a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e3ba5846be8dc6bca309500ad30e05') in 0.012055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Audio/Part 13/19Label.wav
+  artifactKey: Guid(1702e97448601814ea978e817f5ffc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 13/19Label.wav using Guid(1702e97448601814ea978e817f5ffc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8fa1b170f6ed64718f362a1ca59105') in 0.012236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.780737 seconds.
+  path: Assets/Audio/Part 14/03Label.wav
+  artifactKey: Guid(5081cf6700da0824299fd36b8b08d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/03Label.wav using Guid(5081cf6700da0824299fd36b8b08d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f4912e1cde39b9d468cf72987eeea4') in 0.013854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Part 14/29Label.wav
+  artifactKey: Guid(45f4da8fd8884bd4ea18a682bb871492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/29Label.wav using Guid(45f4da8fd8884bd4ea18a682bb871492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db6abdac121a62864969b74bbb4bcd3') in 0.012876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Part 14/40Label.wav
+  artifactKey: Guid(0d05dbe2d523f2d458be3df9da49855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/40Label.wav using Guid(0d05dbe2d523f2d458be3df9da49855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12806a3a02a278ce0718faf2a6ff8f7') in 0.013361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Part 14/08Label.wav
+  artifactKey: Guid(e0ba9c42c45ac62499487417a50534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/08Label.wav using Guid(e0ba9c42c45ac62499487417a50534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af779e6ef37e06f4603cf4ce8ed7507') in 0.012256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Part 14/12Label.wav
+  artifactKey: Guid(c986d32e24090ac45aa87197f183213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/12Label.wav using Guid(c986d32e24090ac45aa87197f183213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20434774089793a5af2db297e15808e8') in 0.011976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/Part 14/34Label.wav
+  artifactKey: Guid(cf2b2560e6717044b9b9377f96da3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/34Label.wav using Guid(cf2b2560e6717044b9b9377f96da3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44ea294ff9b29b1d5d68a1658598998') in 0.013376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Part 14/05Label.wav
+  artifactKey: Guid(c2fed7493d57e604e88e3deef95a4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/05Label.wav using Guid(c2fed7493d57e604e88e3deef95a4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f772cd8f5facd5cd979a288d5c5d48c') in 0.012711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/Part 14/11Label.wav
+  artifactKey: Guid(6d906ada10420f64b9cdaa457450777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/11Label.wav using Guid(6d906ada10420f64b9cdaa457450777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4592d34bfb590797885c9b58b20be6e4') in 0.012198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/Part 14/28Label.wav
+  artifactKey: Guid(80ecf656a80456d49a6fe86ff4033d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/28Label.wav using Guid(80ecf656a80456d49a6fe86ff4033d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4008a11635eba3411f6cdd2f7e0b1778') in 0.011925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/Part 14/25Label.wav
+  artifactKey: Guid(6a2abbeb77a80074691a9ee0c46f4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/25Label.wav using Guid(6a2abbeb77a80074691a9ee0c46f4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbddf0777a8d09aa7201c241636fd90f') in 0.011993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Part 14/39Label.wav
+  artifactKey: Guid(b77dd6a7a24835d46b7eb75ff7cee484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/39Label.wav using Guid(b77dd6a7a24835d46b7eb75ff7cee484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898425da26d13399d427be032111e60a') in 0.013509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Part 14/38Label.wav
+  artifactKey: Guid(457e760674f37c2458acbbbef7257241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/38Label.wav using Guid(457e760674f37c2458acbbbef7257241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4578aaeace27812fc7768b60640172ec') in 0.012411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Audio/Part 14/19Label.wav
+  artifactKey: Guid(dc1f91bbd074f2c48bc08fcbc19269b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Part 14/19Label.wav using Guid(dc1f91bbd074f2c48bc08fcbc19269b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c583fdfab6fd0c7d6c00a9ade73918') in 0.012857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\baa20\AwesomeHotelMarioButton\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\baa20\AwesomeHotelMarioButton\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.904 seconds
+Domain Reload Profiling: 1638ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (265ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (905ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3995 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4476.
+Memory consumption went from 142.9 MB to 142.7 MB.
+Total: 3.820600 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.276400 ms MarkObjects: 2.959000 ms  DeleteObjects: 0.233200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
